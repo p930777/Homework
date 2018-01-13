@@ -1,0 +1,14 @@
+Java SE Development Kit 8u144
+http://download.oracle.com/otn/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-windows-x64.exe?AuthParam=1515743620_faeb42fbb0789a83f28b83605ef249e7
+
+eclipse-jee-oxygen-2-win32-x86_64.zip：
+https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-jee-oxygen-2-win32-x86_64.zip
+
+Sublime Text Build 3143 x64：
+https://download.sublimetext.com/Sublime%20Text%20Build%203143%20x64%20Setup.exe
+
+Everything-1.4.1.877.x64-Setup.exe：
+http://www.voidtools.com/Everything-1.4.1.877.x64-Setup.exe
+
+Git-2.15.1.2-64-bit.exe
+https://github-production-release-asset-2e65be.s3.amazonaws.com/23216272/fd64fd6e-d572-11e7-8ba0-b3657d409994?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180112%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180112T074629Z&X-Amz-Expires=300&X-Amz-Signature=fa77d0237590c9816d7204ccd149c87670bd07845ec67703d332135c94a0b4a1&X-Amz-SignedHeaders=host&actor_id=7836045&response-content-disposition=attachment%3B%20filename%3DGit-2.15.1.2-64-bit.exe&response-content-type=application%2Foctet-stream
