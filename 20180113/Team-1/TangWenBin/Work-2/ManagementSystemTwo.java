@@ -2,13 +2,13 @@ public class ManagementSystemTwo
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("\n\t\t娆㈣繋浣跨敤鎴戣鎴戠礌璐墿绠＄悊绯荤粺");
+		System.out.println("\n\t\t欢迎使用我行我素购物管理系统");
 		System.out.println("\n*************************************************************************");
-		System.out.println("\n\t\t\t1.瀹㈡埛淇℃伅绠＄悊");
-		System.out.println("\n\t\t\t2.璐墿缁撶畻");
-		System.out.println("\n\t\t\t3.鐪熸儏鍥為");
-		System.out.println("\n\t\t\t4.娉ㄩ攢");
+		System.out.println("\n\t\t\t1.客户信息管理");
+		System.out.println("\n\t\t\t2.购物结算");
+		System.out.println("\n\t\t\t3.真情回馈");
+		System.out.println("\n\t\t\t4.注销");
 		System.out.println("\n*************************************************************************");
-		System.out.println("\n璇烽�夋嫨锛岃緭鍏ユ暟瀛楋細");
+		System.out.println("\n请选择，输入数字：");
 	}
 }

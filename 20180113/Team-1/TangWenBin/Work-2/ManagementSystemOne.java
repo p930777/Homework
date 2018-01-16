@@ -2,10 +2,10 @@ public class ManagementSystemOne
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("\n\t\tæ¬¢è¿ä½¿ç”¨æˆ‘è¡Œæˆ‘ç´ è´­ç‰©ç®¡ç†ç³»ç»Ÿ");
-		System.out.println("\n\t\t\t1.ç™»å½•ç³»ç»Ÿ");
-		System.out.println("\n\t\t\t2.é€€å‡º");
+		System.out.println("\n\t\t»¶Ó­Ê¹ÓÃÎÒĞĞÎÒËØ¹ºÎï¹ÜÀíÏµÍ³");
+		System.out.println("\n\t\t\t1.µÇÂ¼ÏµÍ³");
+		System.out.println("\n\t\t\t2.ÍË³ö");
 		System.out.println("\n*************************************************************************");
-		System.out.println("\nè¯·é€‰æ‹©ï¼Œè¾“å…¥æ•°å­—ï¼š");
+		System.out.println("\nÇëÑ¡Ôñ£¬ÊäÈëÊı×Ö£º");
 	}
 }
