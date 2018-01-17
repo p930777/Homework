@@ -3,7 +3,7 @@
  *2018-1-13 15:20
  *在控制台输出购物系统登录菜单
  */
-public class LoginMenu {
+public class LoginMenu { 
 
 	public static void main(String[] args) 
 	{
