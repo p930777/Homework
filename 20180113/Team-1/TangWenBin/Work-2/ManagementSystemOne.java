@@ -7,5 +7,6 @@ public class ManagementSystemOne
 		System.out.println("\n\t\t\t2.退出");
 		System.out.println("\n*************************************************************************");
 		System.out.println("\n请选择，输入数字：");
+		
 	}
 }

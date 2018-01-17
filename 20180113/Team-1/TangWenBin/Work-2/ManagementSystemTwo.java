@@ -10,5 +10,6 @@ public class ManagementSystemTwo
 		System.out.println("\n\t\t\t4.注销");
 		System.out.println("\n*************************************************************************");
 		System.out.println("\n请选择，输入数字：");
+		
 	}
 }
