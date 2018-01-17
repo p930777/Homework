@@ -6,7 +6,7 @@
  */
 public class GoodsList {
 	public static void main(String[] args) 
-	{
+	{ 
 		System.out.print("\t\t购物清单");
 		System.out.print("\n");
 		System.out.println("商品名称\t购物数量\t商品单价\t金额");
