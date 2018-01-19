@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.InputMismatchException;
 
 
 public class Work2{
@@ -16,7 +17,8 @@ public class Work2{
 
     private final String INPUT_TEXT = "请选择，输入数字：";
 
-    private final String ERROR_MSG = "ERROR: Function not ready...";
+    private final String ERROR_FUNCTION_NOT_READY_MSG = "ERROR: Function not ready...";
+    private final String ERROR_INVALID_INPUT_MSG = "ERROR: Invalid input. Please input an integer!";
     private final String EXIT_MSG = "Exiting...";
 
     public static void main(String[] args){
@@ -26,11 +28,15 @@ public class Work2{
     }
 
     public void loginPage(){
+        int result = 0;
+
         System.out.println(WELCOME_LINE);
         System.out.println(LOGIN_1);
         System.out.println(LOGIN_2);
         System.out.println(LINEGAP);
-        int result = readNextInt();
+        do{
+            result = readNextInt();
+        }while(result < 0);
         switch(result){
             case 1:
                 option1Page();
@@ -43,6 +49,8 @@ public class Work2{
     }
 
     public void option1Page(){
+        int result = 0;
+
         System.out.println(WELCOME_LINE);
         System.out.println(LINEGAP);
         System.out.println(OPTION_1);
@@ -50,13 +58,15 @@ public class Work2{
         System.out.println(OPTION_3);
         System.out.println(OPTION_4);
         System.out.println(LINEGAP);
-        int result = readNextInt();
+        do{
+            result = readNextInt();
+        }while(result < 0);
         switch(result){
             case 4:
                 loginPage();
                 break;
             default:
-                System.out.println(ERROR_MSG);
+                System.out.println(ERROR_FUNCTION_NOT_READY_MSG);
                 System.exit(0);
         }
     }
@@ -65,7 +75,12 @@ public class Work2{
         int selection = -1;
         System.out.print(INPUT_TEXT);
         Scanner scanner = new Scanner(System.in);
-        selection = scanner.nextInt();
+        try{
+            selection = scanner.nextInt();
+        }catch (InputMismatchException e) {
+            System.out.println(ERROR_INVALID_INPUT_MSG);
+            return selection;
+        }
         return selection;
     }
 }
