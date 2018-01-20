@@ -1,0 +1,12 @@
+public class Printshopping
+{
+	public static void main (String[] args)
+	{
+     System.out.print("*****************************************\r\n");
+     System.out.print("                购物清单\r\n");
+     System.out.print("商品名称  购买数量  商品单价  金额\r\n");
+     System.out.print("鳄鱼夹克     1      1900      1900\r\n");
+     System.out.print("ipodMP4      2      400       800\r\n");
+     System.out.print("*****************************************\r\n");
+	}
+}

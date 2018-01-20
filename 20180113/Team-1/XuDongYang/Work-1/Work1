@@ -1,0 +1,12 @@
+public class Work1
+{
+      //程序的主函数入门
+      public static void main(String[] args)
+      {
+		   //输出打印字符语句
+		  System.out.println("                 购物清单            ");
+		  System.out.println("商品名称   购买数量   商品单价   金额");
+		  System.out.println("鳄鱼夹克      1         1900     1900");
+		  System.out.println("ipodMP4       2         400      800 ");
+      }
+}
