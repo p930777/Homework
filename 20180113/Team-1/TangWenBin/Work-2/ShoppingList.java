@@ -42,6 +42,11 @@ public class ShoppingList
 		    {
 		    	System.out.println("注销");
 		    }
+		    else
+		    {
+		    	System.out.println("输入无效");
+
+		    }
 
         }
        else if(x == 2)
