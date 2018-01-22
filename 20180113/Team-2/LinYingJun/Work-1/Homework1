@@ -1,0 +1,10 @@
+public class Homework1 {
+	public static void main(String[]args)
+	{
+		System.out.println("\t購物清單");
+		System.out.print("商品名稱\t\t購物數量\t\t商品單價\t\t金額");
+		System.out.print("\n鱷魚夾克\t\t   1\t\t 1900\t\t1900");
+		System.out.print("\nipodMP4\t\t   2\t\t 400\t\t800");
+	}
+
+}
